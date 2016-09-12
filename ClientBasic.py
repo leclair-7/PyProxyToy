@@ -13,7 +13,7 @@ while True:
 	print fromServ
 	if fromServ == "exit":
 		break
-	str1 = raw_input("insert next thing to send: ")
+	str1 = raw_input("To send: ")
 	s.send( str1)
 	
 
